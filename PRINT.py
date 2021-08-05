@@ -17,3 +17,5 @@ def pprint(*args, **kwargs):
 pprint('hello', 'goodbye', end='\n\n\n')
 
 pprint('hello', 'goodbye', end='')
+
+pprint('xxxx')

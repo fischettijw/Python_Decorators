@@ -15,7 +15,7 @@ print('\n***** DECORATORS *****')
 
 
 def speed_test(fn):
-    # @wraps(fn)    # refer to Link Above Why "@Wraps(fn)"
+    @wraps(fn)    # https://www.youtube.com/watch?v=6LZeIeoa5kI
     def wrapper(*args, **kwargs):
         start_time = tm.time()
         result = fn(*args, **kwargs)
